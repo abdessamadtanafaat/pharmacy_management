@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="415.0" prefWidth="684.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.produitsController">
+   <children>
+      <Label layoutX="14.0" layoutY="31.0" prefHeight="31.0" prefWidth="188.0" stylesheets="@../application/application.css" text="Rechercher produits" textFill="#5cbf8a">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="20.0" />
+         </font>
+      </Label>
+      <JFXTextField focusColor="#3cbc84" layoutX="207.0" layoutY="34.0" promptText="Identifiant" unFocusColor="#82c99b" />
+      <JFXTextField focusColor="#40a8a8" layoutX="36.0" layoutY="99.0" promptText="Nom produit" unFocusColor="#82c99b" />
+      <JFXTextField layoutX="186.0" layoutY="99.0" promptText="Quantité" unFocusColor="#82c99b" />
+      <JFXTextField layoutX="36.0" layoutY="159.0" promptText="Prix unitaire" unFocusColor="#82c99b" />
+      <JFXTextField layoutX="186.0" layoutY="159.0" promptText="Quantité" text="Id fournisseur" unFocusColor="#82c99b" />
+      <Label layoutX="359.0" layoutY="169.0" text="Aucune séléctionnée" textFill="#5cbf8a">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </Label>
+      <TableView layoutX="27.0" layoutY="201.0" prefHeight="167.0" prefWidth="630.0" stylesheets="@../application/application.css" AnchorPane.leftAnchor="27.0" AnchorPane.rightAnchor="27.0">
+        <columns>
+          <TableColumn prefWidth="75.0" text="ID" />
+          <TableColumn prefWidth="86.0" text="Nom produit" />
+            <TableColumn prefWidth="192.0" text="Qté" />
+            <TableColumn prefWidth="116.0" text="PU" />
+            <TableColumn prefWidth="160.0" text="ID_fournisseur" />
+        </columns>
+      </TableView>
+      <ImageView fitHeight="139.0" fitWidth="248.0" layoutX="405.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true" />
+      <FontAwesomeIconView glyphName="SEARCH" layoutX="359.0" layoutY="54.0" size="18.0" wrappingWidth="12.0" />
+      <FontAwesomeIconView glyphName="UPLOAD" layoutX="333.0" layoutY="184.0" size="18" />
+      <JFXButton layoutX="135.0" layoutY="374.0" prefHeight="25.0" prefWidth="72.0" styleClass="buttons" stylesheets="@../application/application.css" text="Ajouter" />
+      <JFXButton layoutX="480.0" layoutY="374.0" styleClass="buttons" stylesheets="@../application/application.css" text="Supprimer" />
+      <JFXButton layoutX="306.0" layoutY="374.0" prefHeight="25.0" prefWidth="72.0" styleClass="buttons" stylesheets="@../application/application.css" text="Modifier" />
+   </children>
+</AnchorPane>
