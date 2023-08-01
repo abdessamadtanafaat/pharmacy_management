@@ -1,65 +1,102 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import com.jfoenix.controls.JFXButton?>
-<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.Separator?>
+<?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.HomeController">
    <children>
-      <AnchorPane prefHeight="500.0" prefWidth="216.0" style="-fx-background-color: #373737;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
+      <AnchorPane prefHeight="500.0" prefWidth="216.0" style="-fx-background-color: #21484D;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
          <children>
-            <Pane prefHeight="86.0" prefWidth="216.0" style="-fx-background-color: black;" AnchorPane.bottomAnchor="414.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <Pane prefHeight="86.0" prefWidth="216.0" style="-fx-background-color: #78b4bE;" AnchorPane.bottomAnchor="414.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                <children>
-                  <Label layoutX="64.0" layoutY="35.0" text="Nom de l'agence" textFill="WHITE" />
                   <Separator layoutX="-3.0" layoutY="85.0" prefHeight="4.0" prefWidth="234.0" />
+                  <ImageView fitHeight="62.0" fitWidth="206.0" layoutX="8.0" layoutY="12.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/logo.png" />
+                     </image>
+                  </ImageView>
                </children>
             </Pane>
-            <JFXButton alignment="BASELINE_LEFT" layoutX="20.0" layoutY="120.0" ripplerFill="WHITESMOKE" text="Acceuil" textFill="WHITESMOKE" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="120.0">
-               <graphic>
-                  <FontAwesomeIconView fill="#f5f5f5" glyphName="HOME" size="17" />
-               </graphic>
-            </JFXButton>
-            <JFXButton alignment="BASELINE_LEFT" layoutX="20.0" layoutY="170.0" ripplerFill="WHITESMOKE" text="Les produits" textFill="WHITESMOKE" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="170.0">
-               <graphic>
-                  <FontAwesomeIconView fill="#f5f5f5" glyphName="BUILDING" size="17" />
-               </graphic>
-            </JFXButton>
-            <JFXButton alignment="BASELINE_LEFT" layoutX="20.0" layoutY="220.0" ripplerFill="WHITESMOKE" text="Les clients" textFill="WHITESMOKE" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="220.0">
-               <graphic>
-                  <FontAwesomeIconView fill="#f5f5f5" glyphName="KEY" size="17" />
-               </graphic>
-            </JFXButton>
-            <JFXButton alignment="BASELINE_LEFT" layoutX="20.0" layoutY="270.0" ripplerFill="WHITESMOKE" text="Les ventes" textFill="WHITESMOKE" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="270.0">
-               <graphic>
-                  <FontAwesomeIconView fill="#f5f5f5" glyphName="USERS" size="17" />
-               </graphic>
-            </JFXButton>
-            <JFXButton alignment="BASELINE_LEFT" layoutX="20.0" layoutY="320.0" ripplerFill="WHITESMOKE" text="Les fournisseurs" textFill="WHITESMOKE" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="320.0">
-               <graphic>
-                  <FontAwesomeIconView fill="#f5f5f5" glyphName="CHECK" size="17" />
-               </graphic>
-            </JFXButton>
-            <JFXButton alignment="BASELINE_LEFT" layoutX="20.0" layoutY="370.0" ripplerFill="WHITESMOKE" text="Les factures" textFill="WHITESMOKE" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="370.0">
-               <graphic>
-                  <FontAwesomeIconView fill="#f5f5f5" glyphName="FILE" size="17" />
-               </graphic>
-            </JFXButton>
-            <JFXButton alignment="BASELINE_LEFT" layoutX="20.0" layoutY="420.0" ripplerFill="WHITESMOKE" text="L'Historique" textFill="WHITESMOKE" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="420.0">
-               <graphic>
-                  <FontAwesomeIconView fill="#f5f5f5" glyphName="HISTORY" size="17" />
-               </graphic>
-            </JFXButton>
+            <Button layoutX="26.0" layoutY="131.0" mnemonicParsing="false" onMouseClicked="#acceuil" prefHeight="27.0" prefWidth="168.0" style="-fx-background-color: #78b4bE;" text="Acceuil" textFill="#21484d">
+               <padding>
+                  <Insets bottom="5.0" top="5.0" />
+               </padding>
+               <font>
+                  <Font name="System Bold Italic" size="13.0" />
+               </font>
+            </Button>
+            <Button layoutX="26.0" layoutY="180.0" mnemonicParsing="false" onMouseClicked="#produits" prefHeight="27.0" prefWidth="168.0" style="-fx-background-color: #78b4bE;" text="Les produits" textFill="#21484d">
+               <padding>
+                  <Insets bottom="5.0" top="5.0" />
+               </padding>
+               <font>
+                  <Font name="System Bold Italic" size="13.0" />
+               </font>
+            </Button>
+            <Button layoutX="26.0" layoutY="371.0" mnemonicParsing="false" onMouseClicked="#factures" prefHeight="29.0" prefWidth="168.0" style="-fx-background-color: #78b4bE;" text="Les factures" textFill="#21484d">
+               <padding>
+                  <Insets bottom="5.0" top="5.0" />
+               </padding>
+               <font>
+                  <Font name="System Bold Italic" size="13.0" />
+               </font>
+            </Button>
+            <Button layoutX="24.0" layoutY="325.0" mnemonicParsing="false" onMouseClicked="#fournisseurs" prefHeight="29.0" prefWidth="168.0" style="-fx-background-color: #78b4bE;" text="Les fournisseurs" textFill="#21484d">
+               <padding>
+                  <Insets bottom="5.0" top="5.0" />
+               </padding>
+               <font>
+                  <Font name="System Bold Italic" size="13.0" />
+               </font>
+            </Button>
+            <Button layoutX="26.0" layoutY="279.0" mnemonicParsing="false" onMouseClicked="#ventes" prefHeight="29.0" prefWidth="168.0" style="-fx-background-color: #78b4bE;" text="Les ventes" textFill="#21484d">
+               <padding>
+                  <Insets bottom="5.0" top="5.0" />
+               </padding>
+               <font>
+                  <Font name="System Bold Italic" size="13.0" />
+               </font>
+            </Button>
+            <Button layoutX="26.0" layoutY="229.0" mnemonicParsing="false" onMouseClicked="#clients" prefHeight="27.0" prefWidth="168.0" style="-fx-background-color: #78b4bE;" text="Les clients" textFill="#21484d">
+               <padding>
+                  <Insets bottom="5.0" top="5.0" />
+               </padding>
+               <font>
+                  <Font name="System Bold Italic" size="13.0" />
+               </font>
+            </Button>
+            <Button layoutX="24.0" layoutY="419.0" mnemonicParsing="false" onMouseClicked="#historique" prefHeight="29.0" prefWidth="168.0" style="-fx-background-color: #78b4bE;" text="L'Historique" textFill="#21484d">
+               <padding>
+                  <Insets bottom="5.0" top="5.0" />
+               </padding>
+               <font>
+                  <Font name="System Bold Italic" size="13.0" />
+               </font>
+            </Button>
          </children>
       </AnchorPane>
-      <AnchorPane layoutX="384.0" layoutY="210.0" prefHeight="415.0" prefWidth="684.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="216.0" AnchorPane.rightAnchor="0.0" />
-      <Pane layoutX="308.0" layoutY="-29.0" prefHeight="86.0" prefWidth="684.0" style="-fx-background-color: black;" AnchorPane.leftAnchor="216.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+      <AnchorPane fx:id="root" layoutX="216.0" layoutY="86.0" prefHeight="415.0" prefWidth="684.0" styleClass="anchoroot" stylesheets="@../application/application.css" AnchorPane.bottomAnchor="-1.0" AnchorPane.leftAnchor="216.0" AnchorPane.rightAnchor="0.0">
+         <padding>
+            <Insets bottom="5.0" top="5.0" />
+         </padding></AnchorPane>
+      <Pane layoutX="308.0" layoutY="-29.0" prefHeight="86.0" prefWidth="684.0" style="-fx-background-color: #78b4bE;" AnchorPane.leftAnchor="216.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
          <children>
-            <ImageView fitHeight="69.0" fitWidth="88.0" layoutX="582.0" layoutY="9.0" pickOnBounds="true" preserveRatio="true" />
-            <Label layoutX="418.0" layoutY="35.0" prefHeight="17.0" prefWidth="111.0" text="Nom de l'utilisateur" textFill="WHITE" />
+            <Label fx:id="txt_nomuser" layoutX="514.0" layoutY="18.0" prefHeight="51.0" prefWidth="77.0" text="Nom de l'utilisateur" textAlignment="CENTER" textFill="#21484d">
+               <font>
+                  <Font name="System Bold Italic" size="14.0" />
+               </font></Label>
+            <ImageView fitHeight="64.0" fitWidth="77.0" layoutX="598.0" layoutY="11.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/admin.png" />
+               </image>
+            </ImageView>
          </children></Pane>
    </children>
 </AnchorPane>

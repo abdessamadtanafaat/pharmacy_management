@@ -16,21 +16,6 @@
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/pc/Desktop/jars/fontawesomefx-8.9.jar">
-		<attributes>
-			<attribute name="module" value="true"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/pc/Desktop/jars/fontawesomefx-8.9-sources.jar">
-		<attributes>
-			<attribute name="module" value="true"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/pc/Desktop/jars/fontawesomefx-glyphsbrowser-all-1.0.jar">
-		<attributes>
-			<attribute name="module" value="true"/>
-		</attributes>
-	</classpathentry>
 	<classpathentry kind="lib" path="C:/Users/pc/Desktop/jars/itextpdf-5.4.3.jar">
 		<attributes>
 			<attribute name="module" value="true"/>
@@ -46,47 +31,12 @@
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/pc/Desktop/jars/jfoenix-8.0.10.jar">
+	<classpathentry kind="lib" path="C:/Users/pc/Desktop/jars/mysql-connector-java-5.1.49.jar">
 		<attributes>
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/pc/Desktop/javafx-sdk-17.0.6/lib/javafx.base.jar">
-		<attributes>
-			<attribute name="module" value="true"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/pc/Desktop/javafx-sdk-17.0.6/lib/javafx.controls.jar">
-		<attributes>
-			<attribute name="module" value="true"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/pc/Desktop/javafx-sdk-17.0.6/lib/javafx.fxml.jar">
-		<attributes>
-			<attribute name="module" value="true"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/pc/Desktop/javafx-sdk-17.0.6/lib/javafx.graphics.jar">
-		<attributes>
-			<attribute name="module" value="true"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/pc/Desktop/javafx-sdk-17.0.6/lib/javafx.media.jar">
-		<attributes>
-			<attribute name="module" value="true"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/pc/Desktop/javafx-sdk-17.0.6/lib/javafx.swing.jar">
-		<attributes>
-			<attribute name="module" value="true"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/pc/Desktop/javafx-sdk-17.0.6/lib/javafx.web.jar">
-		<attributes>
-			<attribute name="module" value="true"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/pc/Desktop/javafx-sdk-17.0.6/lib/javafx-swt.jar">
+	<classpathentry kind="lib" path="C:/Users/pc/Desktop/jars/fontawesomefx-8.9.jar">
 		<attributes>
 			<attribute name="module" value="true"/>
 		</attributes>

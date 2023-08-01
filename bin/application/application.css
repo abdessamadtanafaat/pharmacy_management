@@ -9,7 +9,7 @@
 }
 
 .trans-btn-white-border{
-	-fx-background-color: transparenet;
+	-fx-background-color: transparent;
 	-fx-background-radius: 5px;
 	-fx-border-color:#cccccc;
 	-fx-border-radius:5px;
@@ -18,10 +18,14 @@
 }
 
 .white-pane{
-	-fx-background-image: url("/application/images/pharma1.jpg");
+	-fx-background-image: url("/images/Main.jpg");
 	-fx-background-size: 281 386 ;
 	-fx-background-position: center center;
 	-fx-background-color: #FFFFFF;
+}
+
+.acceuil{
+	-fx-background-image: url("/images/Acceuil.jpg");
 }
 
 .tf_box{
@@ -87,6 +91,10 @@
 	-fx-background-color: #0C0C0C;
 	-fx-background-radius: 5px;
 	-fx-text-fill: #FFFFFF;
+}
+
+.imgprod{
+	-fx-background-image: url("/images/medicine.png");
 }
 
 
